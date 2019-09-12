@@ -1,7 +1,7 @@
 # San Andreas Menu (SA-MENU)
 
 
-Interface appearance:
+##Screen:
 [![Actions Status](https://github.com/httpRick/SA-Menu/blob/master/screen.svg)](https://github.com/github/SA-Menu/actions)
 
 ## Client Functions
