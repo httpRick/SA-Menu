@@ -1,0 +1,23 @@
+<meta>
+    <info name="SA-Menu" author="Rick" type="script" version="1.0.0" />
+    <script src="client/utilitiles.lua" type="client" cache="false"/>
+    <script src="client/main.lua" type="client" cache="false"/>
+    <script src="client/example.lua" type="client" cache="false"/>  
+    <script src="server/example.lua" type="server" cache="false"/>
+    
+    <file src="client/files/fonts/beckett.ttf" type="client"/>
+    <file src="client/files/fonts/tahoma-bold.ttf" type="client"/>
+    <file src="client/files/fonts/openSans-Bold.ttf" type="client"/>
+
+    <export function="createMenu" type="client" />
+    <export function="createItem" type="client" />
+    <export function="showMenu" type="client" />
+    <export function="hiddenMenu" type="client" />
+    <export function="setMenuType" type="client" />
+    <export function="setMenuColumn" type="client" />
+    <export function="setMenuTitleAlign" type="client" />
+    <export function="setMenuHorizontalAlign" type="client" />
+    <export function="isMenuShowing" type="client" />
+    <export function="showTips" type="client" />
+    <export function="hiddenTips" type="client" />
+</meta>
