@@ -57,6 +57,29 @@ local theMenu = createMenu(85, 350, "Example Menu")
 hiddenMenu(theMenu)
 ```
 
+### setMenuType
+Paramters:
+* element Menu
+* string Menu type
+Available menu types are: "default", "shop"
+returns true if a good type is input, otherwise false
+```lua
+local theMenu = createMenu(85, 350, "Example Menu")
+setTypeMenu(theMenu, "shop")
+```
+### setMenuColumn
+Paramters:
+* element Menu
+* string left column
+* string right column
+![#f03c15]Only for the store type
+```lua
+local theMenu = createMenu(85, 350, "Example Menu")
+setTypeMenu(theMenu, "shop")
+setMenuColumn(theMenu, "Products", "Price")
+```
+
+
 
 ## Clientside event
 
