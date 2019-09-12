@@ -1,5 +1,5 @@
 # San Andreas Menu (SA-MENU)
-
+[![build status][travis-image]][travis-url]
 
 ### Screen:
 [![Actions Status](https://github.com/httpRick/SA-Menu/blob/master/screen.svg)](https://github.com/github/SA-Menu/actions)
@@ -72,12 +72,14 @@ Paramters:
 * element Menu
 * string left column
 * string right column
-![#f03c15]Only for the store type
+
+🔴 Only for the store type
 ```lua
 local theMenu = createMenu(85, 350, "Example Menu")
 setTypeMenu(theMenu, "shop")
 setMenuColumn(theMenu, "Products", "Price")
 ```
+
 
 
 
