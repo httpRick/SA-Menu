@@ -108,7 +108,7 @@ function isMenuShowing(theMenu)
     end
 end
 
-function setMenuTitleAlign(theMenu)
+function setMenuTitleAlign(theMenu, alignX)
 	if isElement(theMenu) and Menu.cache[theMenu] then
 		assert( (string.lower(alignX) == "left" or string.lower(alignX) == "right") , "Bad argument 2 @ setMenuTitleAlign (invalid type alignment X)")
 		Menu.cache[theMenu].attributes.horizontalTitle = alignX
