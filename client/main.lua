@@ -74,6 +74,7 @@ function hiddenMenu(theMenu)
     if isElement(theMenu) and Menu.cache[theMenu] then
         if Menu.focus then
             removeEventHandler( "onClientRender", root, onClientRenderMenu)
+	    Menu.focus = false
         end
     end
 end
