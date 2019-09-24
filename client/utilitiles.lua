@@ -28,7 +28,6 @@ utilities.cFunc["getScale"] = function(x, y, w, h, alignX, alignY)
     assert(tonumber(h), "Bad argument @ 'scaleScreen' [The argument 4 must be a number!]")
     alignX = alignX or "left"
     alignY = alignY or "top"
-    print(zoom)
     w = w/zoom
     h = h/zoom
     assert( (string.lower(alignX) == "left" or string.lower(alignX) == "center" or string.lower(alignX) == "right") , "Bad argument 5 @ scaleScreen (invalid type alignment X)")
